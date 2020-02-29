@@ -1,77 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola soy Rafael Lopez</title>
-    <link rel="icon" type="image/png" href="img/logo.png">
+<head>  
+    <meta charset="UTF-8"><!-- Determina el tipo de caracteres que puedo usar en mi website. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- no se que funcion cumple esta linea ni cuando la puse xd. -->
+    <title>Hi I'm Rafael Lopez</title> <!-- lo que va en la tab (pestaña) pdt: extraño no tener que copiar y pegar la letra "ñ". -->
+    <link rel="icon" type="image/png" href="img/logo.png"> <!-- icono que va en la tab. -->
+    <link rel="stylesheet" type="text/css"  href="./css/css.css"> <!-- enlace para capturar los estilos css y ponerle estetica a la pagina. -->
 </head>
 
 <body>
     <header>
         <div>
             <figure>
-                <img src="img/logo.png" alt="There's no a image">
+                <img src="img/logo.png" alt="mi logo"> <!-- Mi logo -->
             </figure>
         </div>
-        <nav>
+        <nav> <!-- Mi navigator bar. -->
             <ul>
                 <li>
-                    <a  href="#">Portafolio</a>
+                    <a href="#portafolio">Portafolio</a>
                 </li>
                 <li>
-                    <a  href="#">Experiencia</a>
+                    <a href="#eventos">Experiencia</a>
                 </li>
                 <li>
-                    <a  href="#">Trabajemos juntos</a>
+                    <a href="#contacto">Trabajemos juntos</a>
                 </li>
             </ul>
-        </nav>  
+        </nav>
     </header>
     <section>
         <h1>
-            Hello! I'm <strong>Rafael Lopez</strong> <br/>
-             <strong>javascript developer</strong> improving my <br/>
-             <strong>skills </strong>everydary
+            Hello! I'm <strong>Rafael Lopez</strong> a beginner<br />
+            <strong>javascript developer</strong> starting to <br />
+            <strong>growing up </strong>now.
         </h1>
-        <img src="img/hero.jpg" width="600" alt="There's no a image">   
+        <img src="img/hero.jpg" width="600" alt="imagen principal">
     </section>
-    <section>
+    <section id="portafolio">
         <h2>portfolio (Featured projects)</h2>
         <article>
             <h3>Platzi video</h3>
             <h6>React Native / React</h6>
             <p><small><strong>Date:</strong> 02/21/2020</small></p>
             <p><small><strong>You can watch it on:</strong> www.github.com/rafa1599</small></p>
-            <p>Open source project, made in Javascript that 
-                contains a set of libraries useful for the <br/>
-                development of web applications and proposes 
+            <p>Open source project, made in Javascript that
+                contains a set of libraries useful for the <br />
+                development of web applications and proposes
                 a series of design patterns to carry them out.</p>
             <img src="img/platzi-video-react-native.png" width="600" alt="RN Proyec">
         </article>
     </section>
-    <section>
-        <h2>More about me</h2>
+    <section id="eventos">
+        <h2>Some proyects</h2>
         <article>
             <figure>
-                <img src="img/me.jpg" width = "400" alt="Expowork"/>
+                <img src="img/me.jpg" width="400" alt="Expowork" />
             </figure>
             <h3>Expowork UCV 2018</h3>
-            <P>The event exhibited 37 research projects by 
+            <P>The event exhibited 37 research projects by
                 Vallejiano students, who, guided by their teachers, <br>
                 exploit their full potential and translate it into a scientific project.</p>
-            <a href="#">View Proyect</a>
+            <a href="https://github.com/rafael1599/MyWebPage" target="_blank">View website code</a>
         </article>
     </section>
-    <section>
+    <section id="contacto">
         <form action="/subscription/">
             <h3>Give me your email</h3>
-            <input type="datetime" placeholder="Give me your email" id="email">   
-            <button>Enviar</button>
+            <input  type="datetime" placeholder="Give me your email" id="email">
+            <button >Enviar</button>
         </form>
     </section>
     <footer>Footer</footer>
-</body>
+    </body>
 
 </html>
