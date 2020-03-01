@@ -1,8 +1,32 @@
+*{
+    margin: 0px;
+}
 header {
     background:#3F51B5
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+li {
+    border: 1 px solid red;
+    display: inline-block; 
+
+  }
+
+li > a {
+    color: royalblue;
 }
 
 li > a:hover, button:hover {
 
     background-color: green;
+    color: white;
+}
+
+ul {
+    background-color: #3F51B5;
 }
